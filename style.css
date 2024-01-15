@@ -7,62 +7,68 @@ body{
     background-color: white;
 }
 
-.container{
-  background: sticky;  
-  background-color: red;
+a{
+    color: black;
+    text-decoration: none;
 }
 
-.nav_li{
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 15px;
+.click a{
+    text-decoration: none;
+    color: black; 
+    font-size: 35px;
+    font-weight: 700;
 }
 
-.mug{
-    color:white; 
-    font-size: 30px;
-    font-weight: 700; 
-}
-
-.navbar{
+.navbar_holder{
     background-color: #FFC017;
-    display: flex;
     position: fixed;
     width: 98.7%;
-    margin-top: -10px;
+    overflow: hidden;
 }
 
-a{
+.nav_img{
+    height: 30px;
+    width: 40px;
+    margin-left: 90px;
+    padding-top: 25px;
+}
+
+.ddd{
+    display: flex;
+}
+
+
+.navbar{
+    float: left;
+    display: block;
+    margin-left: 450px;
+    margin-top: 32px;
+}
+
+.navbar a{
     text-decoration: none;
     color: black;
-}
-
-.nav_holder{
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-left: 40%;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 30px;
-
+    padding: 14px 16px;
 }
 
 .btn{
     width: 100px;
-    height: 30px;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
     border: none;
     background-color: black;
     border-radius: 20px;
     color: white;
     cursor: pointer;
 }
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+
 
 .pin{
     background-color: #FFC017;
