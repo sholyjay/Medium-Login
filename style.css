@@ -377,7 +377,14 @@ a{
 .chat1_img{
     height: 145px;
     width: 180px;
-    margin-left: 15px;
+    margin-left: 70px;
+    margin-top: -35px;
+}
+
+.chat2_img{
+    height: 145px;
+    width: 180px;
+    margin-left: 70px;
     margin-top: -35px;
 }
 
@@ -674,9 +681,13 @@ footer{
    top: 200px;
 }
 
-.container{
-    margin: 0;
-    padding: 0;
+.correl{
+    margin-top: 26%;
+    margin-left: -70px;
 }
 
+.correl1{
+    margin-top: 27%;
+    margin-left: -30px;
+}
 
