@@ -24,7 +24,8 @@ a{
 
 .navbar_holder{
     background-color: #FFC017;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 99%;
     margin-top: -10px;
     margin-left: -10px;
@@ -83,7 +84,7 @@ a{
 .svg2_img{
     padding-left: 50%;
     display: block;
-    margin-top: -360px;
+    margin-top: -370px;
 }
 
 .pin{
@@ -591,6 +592,7 @@ a{
     width: 70px;
     border: none;
     border-radius: 18px;
+    margin-left: 7px;
     margin-right: 10px;
     margin-top: 4px;
     background-color: white;
@@ -639,7 +641,8 @@ a{
 }
 
 .see{
-   margin-left: 90px; 
+   margin-left: 100px;
+   margin-right: 70px; 
 }
 
 footer{
